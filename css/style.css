@@ -47,8 +47,8 @@ ul,li {
 .title{
   padding-left:50px;
   text-transform:uppercase;
-  font-size:25px;
-  line-height:25px;
+  font-size:40px;
+  line-height:40px;
   margin-bottom:12px;
   cursor:pointer;
 }
@@ -94,6 +94,14 @@ ul,li {
 
 .orange{
   color:#f7921e;
+}
+
+.green {
+  color:#60ce7c
+}
+
+.cobalt {
+  color:#4782f9
 }
 
 
