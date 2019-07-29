@@ -41,14 +41,14 @@ ul,li {
 .menu-container{
     display:block;
     float:left;
-    width:420px;
+    width:620px;
 }
 
 .title{
   padding-left:50px;
   text-transform:uppercase;
-  font-size:40px;
-  line-height:40px;
+  font-size:60px;
+  line-height:60px;
   margin-bottom:12px;
   cursor:pointer;
 }
@@ -72,7 +72,7 @@ ul,li {
 
 .joanna{
   padding-top:50px;
-  font-size:50px;
+  font-size:80px;
   margin-bottom:50px;
 }
 
@@ -109,7 +109,7 @@ ul,li {
   float:left;
 /*  background:#ff00ff;*/
   min-height: calc(100vh - 20px);
-  width:calc(100vw - 420px);
+  width:calc(100vw - 620px);
   display block;
 }
 
