@@ -48,9 +48,9 @@ ul,li {
 }
 
 .title{
-  padding-left:6.34vh;
+  padding-left:3.275vw;
   text-transform:uppercase;
-  font-size:7.34vh;
+  font-size:3.93vw;
   line-height:8.34vh;
   margin-bottom:1.52vh;
   cursor:pointer;
@@ -75,7 +75,7 @@ ul,li {
 
 .joanna{
   padding-top:6.34vh;
-  font-size:10.34vh;
+  font-size:5.24vw;
   margin-bottom:6.34vh;
 }
 
@@ -117,13 +117,13 @@ ul,li {
 }
 
 .footer{
-  padding-left:6.34vh;  
+  padding-left:3.275vw;  
   height:2.536vh; 
 }
 
 .footer a{
   color:#000;
-  padding-right:2.536vh;
+  padding-right:1.31vw;
   text-decoration:none;
 }
 
