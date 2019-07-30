@@ -42,6 +42,7 @@ ul,li {
     display:block;
     float:left;
     width:620px;
+    height:fit-content; 
     position: fixed; 
     top: 0; 
 }
