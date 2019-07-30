@@ -58,13 +58,13 @@ ul,li {
 
 .title.selected{
   -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.2536vh;
+  -webkit-text-stroke-width: 0.131vw;
   -webkit-text-stroke-color: #fff;
 }
 
 .title.outline{
   -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.1268vh;
+  -webkit-text-stroke-width: 0.0655vw;
   -webkit-text-stroke-color: #000;
 }
 
