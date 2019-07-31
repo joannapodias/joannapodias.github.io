@@ -138,6 +138,12 @@ ul,li {
 	height: 40.61vw; 
 }
 
+#pic:hover {
+	cursor: pointer; 
+	filter: grayscale(100%); 
+	transition:200ms ease-in-out;
+} 
+
 @media screen and (max-width: 600px){
 	.title{
 		line-height: 9.585vw; 
