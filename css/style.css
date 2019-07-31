@@ -147,5 +147,7 @@ ul,li {
 	} #pic {
 		width:calc(100vw - 40.61vw);
 		height:calc(100vw - 40.61vw);
+	} .footer a {
+		font-size: 2.5vw;
 	}
 }
