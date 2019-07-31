@@ -144,5 +144,8 @@ ul,li {
 		font-size: 5.5vw; 
 	} .content-container{
 		font-size: 4.23vw; 
+	} #pic {
+		width:calc(100vw - 40.61vw);
+		height:calc(100vw - 40.61vw);
 	}
 }
