@@ -118,7 +118,8 @@ ul,li {
 
 .footer{
   padding-left:3.275vw;  
-  height:2.536vh; 
+  height:2.536vh;
+  position: fixed
 }
 
 .footer a{
@@ -135,4 +136,13 @@ ul,li {
 #pic {
 	width: 40.61vw; 
 	height: 40.61vw; 
+}
+
+@media screen and (max-width: 600px){
+	.title{
+		line-height: 9.585vw; 
+		font-size: 5.5vw; 
+	} .content-container{
+		font-size: 4.23vw; 
+	}
 }
