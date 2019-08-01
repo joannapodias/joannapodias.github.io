@@ -69,8 +69,6 @@ ul,li {
 }
 
 .title:hover{
-  color:#aaaaaa;
-  transition:200ms ease-in-out;
   animation: pulse 300ms ease-in-out forwards; 
 }
 
