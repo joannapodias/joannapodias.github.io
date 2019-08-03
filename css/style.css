@@ -25,7 +25,12 @@
   -moz-transition: opacity 0.5s linear;
   -ms-transition: opacity 0.5s linear;
   -o-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;    
+  transition: opacity 0.5s linear;  
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;    
 }
 .blob{
   position: absolute;
