@@ -12,8 +12,8 @@ var titleSwitcher = function(){
      $('.menu-container .title').removeClass('selected')     
      $('.menu-container .title').removeClass('outline');
      $('.footer a').removeClass('white'); 
-    $('.blobs').css({'background-color': color});
-   $('.blob').css({'background': color});
+//     $('.blobs').css({'background-color': color});
+//    $('.blob').css({'background': color});
    $('.blobs').css({'opacity': '1'});
   
      
@@ -24,8 +24,8 @@ var titleSwitcher = function(){
      $(this).addClass('selected').removeClass('outline');
      $('.joanna').removeClass('selected')        
      $('.footer a').addClass('white');
-    $('.blobs').css({'background-color': color});
-    $('.blob').css({'background': color});
+//     $('.blobs').css({'background-color': color});
+//     $('.blob').css({'background': color});
      $('.blobs').css({'opacity': '0'});
     
     
