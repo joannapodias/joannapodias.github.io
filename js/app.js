@@ -5,11 +5,11 @@ var titleSwitcher = function(){
  $('.title').on('click', function(){
    var color = $(this).data("bgcolor")
    $('body').css({'background-color': color});
-  $('blobs').css.({'-webkit-transition': 'opacity 0.5s linear'});
-   $('blobs').css.({'-moz-transition': 'opacity 0.5s linear'});
-   $('blobs').css.({'-ms-transition': 'opacity 0.5s linear'});
-   $('blobs').css.({'-o-transition': 'opacity 0.5s linear'});
-   $('blobs').css.({'transition': 'opacity 0.5s linear'});
+  $('blobs').css({'-webkit-transition': 'opacity 0.5s linear'});
+   $('blobs').css({'-moz-transition': 'opacity 0.5s linear'});
+   $('blobs').css({'-ms-transition': 'opacity 0.5s linear'});
+   $('blobs').css({'-o-transition': 'opacity 0.5s linear'});
+   $('blobs').css({'transition': 'opacity 0.5s linear'});
   
    
    
