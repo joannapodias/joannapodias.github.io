@@ -5,19 +5,24 @@ var titleSwitcher = function(){
  $('.title').on('click', function(){
    var color = $(this).data("bgcolor")
    $('body').css({'background-color': color});
-   $('.blobs').css({'background-color': color});
-   $('.blob').css({'background': color}); 
+  var xb = document.getElementsByClassName("blobs"); 
+   
    
    if($(this).hasClass('joanna')){
      $('.menu-container .title').removeClass('selected')     
      $('.menu-container .title').removeClass('outline');
-     $('.footer a').removeClass('white');     
+     $('.footer a').removeClass('white'); 
+    $('.blobs').css({'background-color': color});
+   $('.blob').css({'background': color}); 
+    xb.style.display = "block"; 
+    
    }else{
      $('.menu-container .title').removeClass('selected')
      $('.menu-container .title').addClass('outline')   
      $(this).addClass('selected').removeClass('outline');
      $('.joanna').removeClass('selected')        
      $('.footer a').addClass('white');
+     xb.style.display = "none"; 
    }
 
  })
