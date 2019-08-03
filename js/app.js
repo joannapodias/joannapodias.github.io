@@ -14,7 +14,7 @@ var titleSwitcher = function(){
      $('.footer a').removeClass('white'); 
     $('.blobs').css({'background-color': color});
    $('.blob').css({'background': color});
-    $('.blob').css({'box-shadow': '#fced20'});
+    $('.blob').css({'box-shadow.color': '#fced20'});
      
     
    }else{
@@ -25,7 +25,7 @@ var titleSwitcher = function(){
      $('.footer a').addClass('white');
     $('.blobs').css({'background-color': color});
     $('.blob').css({'background': color});
-    $('.blob').css({'box-shadow': color});
+    $('.blob').css({'box-shadow.color': color});
       
    }
 
