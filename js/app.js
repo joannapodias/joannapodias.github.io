@@ -14,7 +14,7 @@ var titleSwitcher = function(){
      $('.footer a').removeClass('white'); 
     $('.blobs').css({'background-color': color});
    $('.blob').css({'background': color});
-   $('.blobs').css({'display': 'box'});
+   $('.blobs').css({'display': 'block'});
   
      
     
