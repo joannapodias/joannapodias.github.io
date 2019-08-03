@@ -17,6 +17,8 @@
   position: fixed;
   height: 50vh;
   width: 50vw;
+  top: 70vh; 
+  left: -10vw; 
   filter: blur(10px) contrast(50);
   z-index: -1; 
 }
