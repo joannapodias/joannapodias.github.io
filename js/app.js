@@ -5,7 +5,8 @@ var titleSwitcher = function(){
  $('.title').on('click', function(){
    var color = $(this).data("bgcolor")
    $('body').css({'background-color': color});
-//   $('.blobs').css({'background-color': color}); 
+   $('.blobs').css({'background-color': color});
+   $('.blob').css({'background': color}); 
    
    if($(this).hasClass('joanna')){
      $('.menu-container .title').removeClass('selected')     
