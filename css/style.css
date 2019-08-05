@@ -13,14 +13,23 @@
 }
 
 .blobs{
-  background-color: #ffffff00;
+  background-color: #ffffff;
   position: fixed;
-  height: 50vh;
-  width: 60vw;
-  top: 70vh; 
-  left: -10vw; 
+  height: 170vh;
+  width: 110vw; 
   filter: blur(10px) contrast(50);
   z-index: -1; 
+  -webkit-transition: background 0.2s linear; 
+  -moz-transition: background 0.2s linear; 
+  -ms-transition: background 0.2s linear; 
+  -o-transition: background 0.2s linear; 
+  transition: background 0.2s linear; 
+  -webkit-transition: opacity 0.2s linear; 
+  -moz-transition: opacity 0.2s linear; 
+  -ms-transition: opacity 0.2s linear; 
+  -o-transition: opacity 0.2s linear; 
+  transition: opacity 0.2s linear; 
+	
   
 }
 .blob{
