@@ -18,9 +18,8 @@ var titleSwitcher = function(){
      $('.menu-container .title').removeClass('outline');
      $('.footer a').removeClass('white'); 
 //     $('.blobs').css({'background-color': color});
-//    $('.blob').css({'background': color});
-     $('.blobs').css({'background-color' : #ffffff00}); 
-   $('.blobs').css({'opacity': '1'});
+//    $('.blob').css({'background': color}); 
+     $('.blobs').css({'opacity': '1'});
   
      
     
