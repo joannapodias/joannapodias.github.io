@@ -173,12 +173,15 @@ ul,li {
 #pic {
 	width: 40.61vw; 
 	height: 40.61vw; 
+	border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%; 
+	transition: 200ms ease-in-out; 
 }
 
 #pic:hover {
 	cursor: pointer; 
 	filter: grayscale(100%); 
 	transition:200ms ease-in-out;
+	border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%; 
 } 
 
 @media screen and (max-width: 600px){
