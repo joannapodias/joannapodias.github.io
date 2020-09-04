@@ -45,10 +45,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-a {
+/* a {
    text-decoration: none; 
    color: inherit; 
-}
+} */
 a:visited {
    text-decoration: none;
    color: inherit; 
