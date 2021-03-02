@@ -206,7 +206,6 @@ ul,li {
   user-select: none;
 }
 
-
 #sculpture {
   width: 20vw;
   height: 20vw;
@@ -214,6 +213,18 @@ ul,li {
   position: fixed;
   z-index: -1;
   top: 36vw;
+}
+
+#profile {
+  width: 70%;
+  padding-right: 20vw;
+  padding-top: 5vw;
+  border-radius: 40% 70% 70% 40% / 70% 50% 60% 40%;
+}
+
+.about-bio{
+  width: 70%;
+  font-size: 2vw;
 }
 
 #jitter-blobs {
@@ -239,4 +250,3 @@ ul,li {
 		font-size: 2.5vw;
 	}
 }
-
