@@ -108,7 +108,8 @@ ul,li {
 
 .title:hover{
   animation: pulse 300ms ease-in-out forwards;
-  animation: jello 700ms ease-in-out forwards;
+  animation: glob 1500ms ease-in-out alternate;
+  animation-iteration-count: infinite;
 }
 
 .joanna{
@@ -187,7 +188,8 @@ ul,li {
 	cursor: pointer;
 	filter: grayscale(100%);
 	transition:200ms ease-in-out;
-  animation: jello 1000ms ease-in-out forwards;
+  /* animation: glob 2000ms ease-in-out alternate;
+  animation-iteration-count: infinite; */
 	border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
 }
 
@@ -284,3 +286,4 @@ ul,li {
 		font-size: 2.5vw;
 	}
 }
+
