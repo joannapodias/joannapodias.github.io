@@ -108,6 +108,7 @@ ul,li {
 
 .title:hover{
   animation: pulse 300ms ease-in-out forwards;
+  animation: jello 700ms ease-in-out forwards;
 }
 
 .joanna{
@@ -186,6 +187,7 @@ ul,li {
 	cursor: pointer;
 	filter: grayscale(100%);
 	transition:200ms ease-in-out;
+  animation: jello 1000ms ease-in-out forwards;
 	border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
 }
 
@@ -235,6 +237,38 @@ ul,li {
   top: 30vw;
   left: 70vw;
   border-radius: 30% 80%;
+}
+
+#ice-cream-pic {
+  width: 40%;
+  top: 20vw;
+  left: 50vw;
+}
+
+#ice-cream-pic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#brain-dead-iframe {
+  width: 50%;
+  padding-top: 10vw;
+}
+
+#better-than-you-pic {
+  width: 40%;
+  top: 20vw;
+  left: 70vw;
+}
+
+#better-than-you-pic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#better-than-you-iframe {
+  width: 50%;
+  padding-top: 10vw;
 }
 
 @media screen and (max-width: 600px){
