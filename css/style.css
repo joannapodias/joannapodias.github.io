@@ -242,9 +242,10 @@ ul,li {
 }
 
 #ice-cream-pic {
-  width: 40%;
-  top: 20vw;
-  left: 50vw;
+  width: 20%;
+  top: 10vw;
+  left: 40vw;
+  position: fixed;
 }
 
 #ice-cream-pic:hover{
@@ -258,9 +259,10 @@ ul,li {
 }
 
 #better-than-you-pic {
-  width: 40%;
-  top: 20vw;
+  width: 20%;
+  top: 10vw;
   left: 70vw;
+  position: fixed;
 }
 
 #better-than-you-pic:hover{
@@ -286,4 +288,3 @@ ul,li {
 		font-size: 2.5vw;
 	}
 }
-
