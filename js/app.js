@@ -1371,7 +1371,7 @@ pages =
 
     <div>
     <p>
-    <br>
+    <br><br>
     The brightness level of the purple string of lights was
     controlled by the amplitude of the audio, using a MIDI-to-DMX
     conversion box that was getting signal from the Max patch. Later
@@ -1450,7 +1450,7 @@ pages =
     "ROY G. BIV," the common acronym for the colors of the rainbow, as well
     as "RGB," meaning red, blue, green, being the values that make up the
     color of a pixel on a screen.
-    <br>
+    <br><br>
     The synthesized visuals were aesthetically inspired by the look of
     TV static or color test bars, which can be seen in the way it creates
     blocky, chaotic colors and shapes.
