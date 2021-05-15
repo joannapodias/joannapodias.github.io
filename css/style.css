@@ -29,9 +29,8 @@
   -ms-transition: opacity 0.2s linear;
   -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
-
-
 }
+
 .blob{
   position: absolute;
   top: 50%;
@@ -41,7 +40,7 @@
   height: 20vh;
   overflow: hidden;
   background: #ffffff;
-  box-shadow: 0 0 0 20px #fced20;
+  box-shadow: 0 0 0 40px #fced20;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
   -webkit-transition: opacity 0.2s linear;
   -moz-transition: opacity 0.2s linear;
@@ -83,6 +82,7 @@ ul,li {
     height:fit-content;
     position: fixed;
     top: 0;
+    padding-bottom: 10vw;
 }
 
 .title{
@@ -102,7 +102,7 @@ ul,li {
 
 .title.outline{
   -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.0655vw;
+  -webkit-text-stroke-width: 0.0755vw;
   -webkit-text-stroke-color: #000;
 }
 
@@ -114,7 +114,7 @@ ul,li {
 
 .joanna{
   padding-top:6.34vh;
-  font-size:5.24vw;
+  font-size:4.24vw;
   margin-bottom:6.34vh;
 }
 
@@ -241,11 +241,14 @@ ul,li {
   border-radius: 30% 80%;
 }
 
+
+
+
 #ice-cream-pic {
-  width: 20%;
-  top: 10vw;
+  width: 100%;
+  /* top: 10vw;
   left: 40vw;
-  position: fixed;
+  position: fixed; */
 }
 
 #ice-cream-pic:hover{
@@ -255,14 +258,15 @@ ul,li {
 
 #brain-dead-iframe {
   width: 50%;
-  padding-top: 10vw;
+  padding-top: 5vw;
+  padding-left: 15vw;
 }
 
 #better-than-you-pic {
-  width: 20%;
-  top: 10vw;
+  width: 100%;
+  /* top: 10vw;
   left: 70vw;
-  position: fixed;
+  position: fixed; */
 }
 
 #better-than-you-pic:hover{
@@ -272,7 +276,756 @@ ul,li {
 
 #better-than-you-iframe {
   width: 50%;
-  padding-top: 10vw;
+  padding-top: 3vw;
+  padding-left: 15vw;
+}
+
+#cat-pic {
+  width: 100%;
+}
+
+#cat-pic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#dys-blobspic {
+  width: 100%;
+
+}
+
+#dys-blobspic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#pesmou-pic {
+  width: 100%;
+  height: 100%;
+  /* top: 20vw;
+  left: 40vw; */
+}
+
+#pesmou-pic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+.pesmouWrapper {
+  position: relative;
+  height: 0;
+}
+
+.pesmouWrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 4vw;
+  padding-left: 20%;
+  max-width: 50%;
+}
+
+#blossom-pic {
+  width: 100%;
+  height: 100%;
+  /* top: 20vw;
+  left: 40vw; */
+}
+
+#blossom-pic:hover{
+  cursor:pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+.blossomWrapper {
+  position:relative;
+  height:0;
+}
+
+.blossomWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 4vw;
+  padding-left: 20%;
+  max-width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.fleetWrapper {
+  padding-left: 20%;
+  padding-top: 4vw;
+  max-width: 50%;
+}
+
+.dys-wrapper {
+  padding-left: 20%;
+  padding-top: 4vw;
+  max-width: 50%;
+}
+
+.dysVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.dysVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 20%;
+  padding-bottom: 1vw;
+  max-width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.wirehandVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.wirehandVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 20%;
+  padding-bottom: 1vw;
+  max-width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.fosVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.fosVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+.royVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.royVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 20%;
+  padding-bottom: 1vw;
+  max-width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.freeformVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.freeformVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-bottom: 1vw;
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+.fastestVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.fastestVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-bottom: 1vw;
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+.stonewallVidWrapper {
+  position:relative;
+  height:0;
+}
+
+.stonewallVidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-bottom: 1vw;
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+#blossomtext {
+  padding-top: 5vw;
+}
+
+#fleet-text {
+  padding-top: 0vw;
+}
+
+#pesmou-text {
+  padding-top: 5vw;
+}
+
+#armwrestlingpic {
+  padding-top: 4vw;
+  width: 90%;
+}
+
+#armwrestlingpic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#armwrestlingvideo {
+  padding-top: 0vw;
+}
+
+#armwrestling-wrapper {
+  padding-left: 5%;
+  padding-top: 4vw;
+  max-width: 80%;
+}
+
+#hypnoxdfpic {
+  width: 100%;
+}
+
+#hypnoxdfpic:hover{
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#greek1icon {
+  width: 100%;
+}
+
+#greek1icon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#greek2icon {
+  width: 90%;
+}
+
+#greek2icon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#memeensicon {
+  width: 90%;
+}
+
+#memeensicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#stonewallicon {
+  width: 100%;
+}
+
+#stonewallicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#meme-full {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#greek1-full {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#greek2-full {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#veinblobfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#fleshblobfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#wirehandfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#pulpfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#guitfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#lamourfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#ichigotchifull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#spikefull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#jotarofull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#mattfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#selfbluepicfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#bluenudefull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#orangenudepicfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#deneimaipicfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#fosfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#royfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#fleshdysicon {
+  width: 100%;
+}
+
+#fleshdysicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#pulpydysicon {
+  width: 100%;
+}
+
+#pulpydysicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#guitarmodicon {
+  width: 100%;
+}
+
+#guitarmodicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#lamouricon {
+  width: 100%;
+}
+
+#lamouricon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#ichigotchicon {
+  width: 100%;
+}
+
+#ichigotchicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#spikeearringsicon {
+  width: 100%;
+}
+
+#spikeearringsicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#jotaroicon {
+  width: 100%;
+}
+
+#jotaroicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#wirehandicon {
+  width: 100%;
+}
+
+#wirehandicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#matticon {
+  width: 100%;
+}
+
+#matticon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#deneimaiicon {
+  width: 100%;
+}
+
+#deneimaiicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#orangenudeicon {
+  width: 80%;
+}
+
+#orangenudeicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#blueselficon {
+  width: 100%;
+}
+
+#blueselficon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#bluenudeicon {
+  width: 100%;
+}
+
+#bluenudeicon:hover {
+  cursor:pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#veinblobicon {
+  width: 100%;
+}
+
+#veinblobicon:hover {
+  cursor:pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#dysmorphiaicon {
+  width: 100%;
+
+}
+
+#dysmorphiaicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#dysmorphiaiconfull {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#tarasculpture {
+  padding-top: 2vw;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#fosicon {
+  width: 100%;
+}
+
+#fosicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#royicon {
+  width: 90%;
+}
+
+#royicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#freeformicon {
+  width: 100%;
+}
+
+#freeformicon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#fastesticon {
+  width: 100%;
+}
+
+#fastesticon:hover {
+  cursor: pointer;
+  animation: jello 1000ms ease-in-out forwards;
+}
+
+#gridblock {
+  padding-bottom: 2vw;
+  /* color: white; */
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+#wrestlingtext {
+  color: white;
+}
+
+p {
+  text-align: justify;
+  color: white;
+  font-size: 1.75vw;
+  max-width: 50%;
+  padding-left: 20%;
+  padding-bottom: 1vw;
+}
+
+#title-text {
+  color: white;
+  padding-top: 0.5vw;
+  padding-left: 20%;
+  max-width: 50%;
+}
+
+#df-text {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+#df-body {
+  text-align: justify;
+  color: white;
+  font-size: 1.75vw;
+  max-width: 80%;
+  padding-left: 1%;
+  padding-bottom: 1vw;
+}
+
+#df-title {
+  color: white;
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+  max-width: 80%;
+}
+
+#yellow-title {
+  color: black;
+  padding-top: 4vw;
+  text-align: center;
+  padding-bottom: 1vw;
+  max-width: 80%;
+}
+
+video:hover {
+  cursor: pointer;
+}
+
+.row-music {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw 4vw;
+  color: white;
+}
+
+.column-music {
+  flex: 25%;
+  max-width: 125%;
+  padding: 0 0.5vw;
+}
+
+.row-graphics {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 4vw 0vw; */
+  color: white;
+}
+
+.column-graphics {
+  flex: 25%;
+  max-width: 125%;
+  padding: 0 0.5vw;
+}
+
+.row-sculpture {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw 0vw;
+  color: black;
+}
+
+.column-sculpture {
+  flex: 25%;
+  max-width: 125%;
+  padding: 0 0.5vw;
+}
+
+.row-instruments {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw 0vw;
+  color: black;
+}
+
+.column-instruments {
+  flex: 25%;
+  max-width: 125%;
+  padding: 0 0.5vw;
+}
+
+.row-installations {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw 0vw;
+  color: white;
+}
+
+.column-installations {
+  flex: 25%;
+  max-width: 125%;
+  padding: 0 0.5vw;
+}
+
+
+/* #grid-item {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 5%;
+} */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column video {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px){
