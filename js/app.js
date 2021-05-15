@@ -203,7 +203,7 @@ pages =
     <br><br>
     Her work explores the perception of oneself through the eyes of society,
     and how it affects and distorts the way that we understand our bodies and minds.
-    Particulary, Podias focuses on the interactions between women and the society,
+    Particulary, Podias focuses on the interactions between women and society,
      as well as ideas of mental illness.
     <br><br>
     While dealing in heavy topics, she likes her work to have a colorful, playful, and
