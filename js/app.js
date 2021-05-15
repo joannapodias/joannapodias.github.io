@@ -1528,7 +1528,7 @@ pages =
 
   "fastestpage": {
     body: `
-    <h1 id="title-text"><br><i>Samsung - Fastest</i> (2018)</h1>
+    <h1 id="title-text"><br><i>Samsung - Fastest</i> (2018)<br></h1>
 
     <div class="fastestVidWrapper" style="width:100%;height:35vw;">
     <iframe width="560" height="315"
@@ -1543,7 +1543,7 @@ pages =
     <div>
     <p>
     <br>
-    <i>Freeform</i> was a large-scale, installation designed to
+    <i>Fastest</i> was a large-scale, installation designed to
     showcase the processing speed of the upcoming
     Galaxy Note9.
     <br><br>
