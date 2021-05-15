@@ -914,7 +914,7 @@ pages =
     </div>
 
     <div>
-    <img src="media/sculpturecover.jpg" id="tarasculpture"
+    <img src="media/sculpturecover.JPG" id="tarasculpture"
     </div>
 
     <div>
