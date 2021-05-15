@@ -566,9 +566,7 @@ pages =
     <div id="pesmou-text">
     <h1 id="title-text"><i>Pes mou "Mou leipeis"</i> (2019)</h1>
     <p>
-    <i>***NOTE - Due to YouTube's copyright system, you may need to open the sample
-    in a separate browser window by clicking "Watch on YouTube," as this piece contains copyrighted music.***</i>
-    <br><br>
+    <br>
     <i>Pes mou "Mou leipeis,"</i> which translates from Greek to mean "tell me you miss me,"
     is an audio/visual monologue presented in the form of an old, melodramatic film trailer.
     <br><br>
